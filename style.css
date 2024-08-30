@@ -2,24 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('../img/main-bg.svg');
+  background-image: url('img/main-bg.svg'); /* Ajuste o caminho se necessário */
   background-size: cover;
 }
 
 header {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-image: 
     linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-    url('../img/subtle-prism.svg');
+    url('img/subtle-prism.svg'); /* Ajuste o caminho se necessário */
   color: #fff;
   padding: 1em 0;
   text-align: center;
-
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 nav ul li {
@@ -28,9 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:
-    #fff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -39,10 +37,10 @@ main {
 }
 
 footer {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-image: 
-  linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-  url('../img/subtle-prism.svg');
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('img/subtle-prism.svg'); /* Ajuste o caminho se necessário */
   color: #fff;
   text-align: center;
   padding: 1em 0;
@@ -69,7 +67,6 @@ form textarea {
 }
 
 form input[type="submit"] {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: green;
   border-color: #fff;
   color: #fff;
@@ -84,24 +81,20 @@ form input[type="submit"] {
   border-radius: 10%;
 }
 
-body main section p{
+body main section p {
   color: #ffffff;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body main section h2{
+body main section h2 {
   color: #ffffff;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 main section form label {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
 }
 
-main ul li a{
+main ul li a {
   text-decoration: none;
   color: cyan;
   font-weight: bold;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
